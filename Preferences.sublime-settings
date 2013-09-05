@@ -1,0 +1,114 @@
+{
+	"auto_id_class": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+	"detect_slow_plugins": false,
+	"draw_minimap_border": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		".tags",
+		".tags_sorted_by_file",
+		".DS_Store",
+		"sftp-config.json",
+		"composer.lock"
+	],
+	"find_selected_text": true,
+	"flatland_square_tabs": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"_build",
+		".settings"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12.0,
+	"git_gutter_live_mode": false,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Laravel 4 Snippets",
+		"sublime-better-coffeescript",
+		"Twitter Bootstrap Snippets",
+		"ReadmePlease",
+		"INI",
+		"Dayle Rees Color Schemes",
+		"Phpcs",
+		"ApplySyntax",
+		"PHP Namespace Command",
+		"Hipster Ipsum",
+		"Markdown Preview",
+		"Debug Killer",
+		"JavaScript Console",
+		"Backbone.js",
+		"PhpBeautifier",
+		"PHPUnit Completions",
+		"Artisan",
+		"LiveReload",
+		"CanISwitchToSublimeText3",
+		"Theme - Soda",
+		"Laravel Color Scheme",
+		"Composer",
+		"CTags",
+		"Blade Snippets",
+		"Vintage",
+		"Search WordPress Codex",
+		"Color Highlighter",
+		"CoffeeCompile",
+		"JavaScript",
+		"AutoFileName",
+		"Laravel Generator",
+		"Emmet Css Snippets",
+		"Wordpress"
+	],
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
+	"margin": 2,
+	"remember_open_files": true,
+	"rulers":
+	[
+	],
+	"scroll_past_end": true,
+	"show_tab_close_buttons": true,
+	"theme": "Flatland Dark.sublime-theme",
+	"todo":
+	{
+		"case_sensitive": true,
+		"file_exclude_patterns":
+		[
+			"*.rb",
+			"*.py"
+		],
+		"folder_exclude_patterns":
+		[
+			"vendor",
+			"tmp",
+			"libs"
+		],
+		"patterns":
+		{
+			"CHANGED": "@CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+			"FIXME": "@FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+			"NOTE": "@NOTE[\\s]*?:+(?P<note>.*)$",
+			"TODO": "@TODO[\\s]*?:+(?P<todo>.*)$"
+		}
+	},
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"wide_caret": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": false
+}

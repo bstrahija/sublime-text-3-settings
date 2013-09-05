@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[/**
+ * ${1:Class description}
+ * @author ${2:Boris Strahija} <${3:bstrahija@gmail.com}>
+ */
+class ${4:${TM_FILENAME/(.*)[.](.*)/$1/g}} ${5:extends ${6:BaseClass} }{
+
+	public function ${7:__construct}()
+	{
+		${8:// Code...}
+	}
+
+}
+]]></content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.php</scope>
+	<description>PHP Class</description>
+</snippet>

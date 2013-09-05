@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$${1:queryName} = new WP_query(array(
+	'post_type'      => '${2:post}',
+	'posts_status'   => 'publish',
+	'posts_per_page' => ${3:10},
+));
+]]></content>
+	<tabTrigger>wpq</tabTrigger>
+</snippet>

@@ -1,0 +1,38 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Autoprefixer",
+		"Backbone.Marionette",
+		"Better JavaScript",
+		"Blade Snippets",
+		"BracketHighlighter",
+		"ColorPicker",
+		"Dayle Rees Color Schemes",
+		"DocBlockr",
+		"Ember.js Snippets",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Git",
+		"Handlebars",
+		"HTML5",
+		"jQuery",
+		"JsFormat",
+		"Laravel 4 Snippets",
+		"Laravel Blade Highlighter",
+		"Laravel Color Scheme",
+		"LESS",
+		"LESS-build",
+		"PHP Companion",
+		"Select Quoted",
+		"SFTP",
+		"SideBarEnhancements",
+		"Smartisan",
+		"SmartMarkdown",
+		"Syntax Highlighting for Sass",
+		"Tag",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
+	]
+}

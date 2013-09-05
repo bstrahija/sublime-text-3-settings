@@ -1,0 +1,20 @@
+[
+	{ "keys": ["ctrl+s"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+“"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["super+alt+p"], "command": "sftp_upload_file" },
+	{ "keys": ["super+alt+a"], "command": "sftp_upload_open_files" },
+	{ "keys": ["super+alt+ctrl+r"], "command": "reindent" },
+	{ "keys": ["ctrl+j"], "command": "join_lines" },
+	{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+	{ "keys": ["f2"], "command": "side_bar_rename" },
+	{ "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+	{ "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste" },
+	{ "keys": ["alt+super+d"], "command": "find_all_under" },
+	{ "keys": ["ctrl+shift+m"], "args": { "action": "matching_pair" }, "command": "run_emmet_action", "context": [{ "key": "emmet_action_enabled.matching_pair" }] },
+	{ "keys": ["super+alt+down"], "command": "navigate_to_definition" },
+	{ "keys": ["ctrl+alt+m"], "command": "markdown_preview" },
+	{ "keys": ["f13"], "command": "goto_definition_scope" }
+
+]

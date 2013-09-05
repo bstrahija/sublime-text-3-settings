@@ -1,0 +1,18 @@
+{
+	"files":
+	{
+		"backbone": "http://backbonejs.org/backbone-min.js",
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"jquery_cycle": "http://malsup.github.io/min/jquery.cycle2.min.js",
+		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css"
+	},
+	"packages":
+	{
+		"bootstrap": "http://twitter.github.com/bootstrap/assets/bootstrap.zip",
+		"fancybox": "https://github.com/fancyapps/fancyBox/zipball/master",
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master",
+		"laravel4": "https://github.com/laravel/laravel/archive/develop.zip",
+		"wordpress": "http://wordpress.org/latest.zip",
+		"wordpress_plugin_boilerplate": "https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/archive/master.zip"
+	}
+}

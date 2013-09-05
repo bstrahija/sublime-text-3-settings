@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="{{ URL::asset('assets/css/main.css') }}">
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+	<script src="{{ URL::asset('assets/js/script.js') }}"></script>
+</head>
+<body>
+<div class="container">
+	<div class="masthead">
+		<ul class="nav nav-pills pull-right">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<h3 class="muted">Document</h3>
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="span12">
+			@yield('main')
+		</div>
+	</div>
+
+	<hr>
+
+	<footer id="f1">
+		<p>&copy; 2013, Boris Strahija</p>
+	</footer>
+</div>
+</body>
+</html>]]></content>
+	<tabTrigger>html:blade</tabTrigger>
+</snippet>

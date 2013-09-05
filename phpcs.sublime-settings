@@ -1,0 +1,41 @@
+{
+	"show_debug": true,
+
+	// Show the errors in the quick panel so you can then goto line
+	"phpcs_show_quick_panel": true,
+
+	// It seems python/sublime cannot always find the phpcs application
+	// If empty, then use PATH version of phpcs, else use the set value
+	"phpcs_executable_path": "/Applications/MAMP/bin/php/php5.4.10/bin/phpcs",
+
+	"phpcs_additional_args": {
+	    "--standard": "psr1",
+	    "-n": ""
+	},
+
+	// Path to where you have the php-cs-fixer installed
+	"php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+
+	// Are we going to run php -l over the file?
+	"phpcs_linter_run": true,
+
+	// Execute phpmd
+	"phpmd_run": true,
+
+	// It seems python/sublime cannot always find the phpmd application
+	// If empty, then use PATH version of phpmd, else use the set value
+	"phpmd_executable_path": "/Applications/MAMP/bin/php/php5.4.10/bin/phpmd",
+
+	// Execute the sniffer on file save
+	"phpcs_execute_on_save": true,
+
+	// Show the error list after save.
+	"phpcs_show_errors_on_save": false,
+
+	// Execute the linter on file save
+	"phpcs_linter_command_on_save": false,
+
+	// Execute the phpmd on file save
+	"phpmd_command_on_save": false
+
+}

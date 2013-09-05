@@ -1,0 +1,8 @@
+[
+	{
+		"button": "button1",
+		"count": 2,
+		"modifiers": ["alt"],
+		"command": "goto_definition_scope"
+	}
+]
