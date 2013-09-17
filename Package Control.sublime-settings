@@ -15,6 +15,7 @@
 		"Emmet Css Snippets",
 		"Git",
 		"Handlebars",
+		"HTML-CSS-JS Prettify",
 		"HTML5",
 		"jQuery",
 		"JsFormat",
@@ -24,6 +25,7 @@
 		"LESS",
 		"LESS-build",
 		"PHP Companion",
+		"QuickThemes",
 		"Select Quoted",
 		"SFTP",
 		"SideBarEnhancements",
@@ -33,6 +35,7 @@
 		"Tag",
 		"Theme - Flatland",
 		"Theme - Soda",
-		"Tomorrow Color Schemes"
+		"Tomorrow Color Schemes",
+		"WakaTime"
 	]
 }

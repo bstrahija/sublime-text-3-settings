@@ -6,7 +6,9 @@
     "sublimelinter_disable":
     [
     	"css",
-        "min.js"
+        "*.min.js",
+        "jquery.min.js",
+        "bootstrap.min.js"
     ],
     /*"sublimelinter_syntax_map":
     {

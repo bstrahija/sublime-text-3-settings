@@ -15,6 +15,6 @@
 	{ "keys": ["ctrl+shift+m"], "args": { "action": "matching_pair" }, "command": "run_emmet_action", "context": [{ "key": "emmet_action_enabled.matching_pair" }] },
 	{ "keys": ["super+alt+down"], "command": "navigate_to_definition" },
 	{ "keys": ["ctrl+alt+m"], "command": "markdown_preview" },
-	{ "keys": ["f13"], "command": "goto_definition_scope" }
-
+	{ "keys": ["alt+super+up"], "command": "goto_definition_scope" },
+	{ "keys": ["super+ctrl+m"], "command": "toggle_menu" }
 ]
