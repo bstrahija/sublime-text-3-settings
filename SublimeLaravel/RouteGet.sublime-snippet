@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[Route::get('${1:post}', '${4:${3:Posts}Controller}@${6:get${5:Method}}');
+]]></content>
+	<tabTrigger>rget</tabTrigger>
+	<scope>source.php</scope>
+	<description>GET route in Laravel 4</description>
+</snippet>

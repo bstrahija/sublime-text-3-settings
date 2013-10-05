@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[Route::controller('${1:posts}', '${3:${2:Posts}Controller}}');
+]]></content>
+	<tabTrigger>rcont</tabTrigger>
+	<scope>source.php</scope>
+	<description>RESTful controller route in Laravel 4</description>
+</snippet>

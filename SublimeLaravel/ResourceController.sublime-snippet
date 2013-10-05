@@ -1,0 +1,81 @@
+<snippet>
+	<content><![CDATA[<?php${1: namespace ${2:App\\Controllers;}}
+
+/**
+ * Resourceful controller for ${3:posts}
+ * @author ${5:Boris Strahija} <${6:bstrahija@gmail.com}>
+ */
+class ${7:${TM_FILENAME/(.*)[.](.*)/$1/g}} ${8:extends ${9:BaseController} }{
+
+	/**
+	 * Show all ${3}
+	 * @return View
+	 */
+	public function index()
+	{
+		return View::make('${3}.index');
+	}
+
+	/**
+	 * Create new ${10:post}
+	 * @return View
+	 */
+	public function create()
+	{
+		return View::make('${3}.create');
+	}
+
+	/**
+	 * Store new $10
+	 * @return Redirect
+	 */
+	public function store()
+	{
+		return Redirect::route('$3.index');
+	}
+
+	/**
+	 * Display single $10
+	 * @param  integer \$id
+	 * @return View
+	 */
+	public function show(\$id)
+	{
+		return View::make('$3.show');
+	}
+
+	/**
+	 * Display edit form for $10
+	 * @param  integer \$id
+	 * @return View
+	 */
+	public function edit(\$id)
+	{
+		return View::make('$3.edit');
+	}
+
+	/**
+	 * Save changes for $10
+	 * @param  integer \$id
+	 * @return Redirect
+	 */
+	public function update(\$id)
+	{
+		return Redirect::route('$3.edit', array(\$id));
+	}
+
+	/**
+	 * Delete a $10
+	 * @param  integer \$id
+	 * @return Redirect
+	 */
+	public function destroy(\$id)
+	{
+		return Redirect::route('$3.index');
+	}
+
+}
+]]></content>
+	<tabTrigger>resource</tabTrigger>
+	<description>Laravel 4 resource controller</description>
+</snippet>

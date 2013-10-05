@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[${1:public }${2:static }function ${3:name}(${4:${5:\$param}${6: = null}})
+	<content><![CDATA[function ${1:name}(${2:${3:\$param}${4: = null}})
 {
-	${7}
+	${5}
 }
 ]]></content>
 	<tabTrigger>fnc</tabTrigger>

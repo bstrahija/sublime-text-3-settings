@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
 <?php
-	${1}
-?>
+
+${1}
+
 ]]></content>
 	<tabTrigger>phpx</tabTrigger>
 </snippet>
