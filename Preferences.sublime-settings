@@ -40,41 +40,17 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"PHP Namespace Command",
-		"Blade Snippets",
-		"Laravel 4 Snippets",
-		"Laravel Generator",
 		"JavaScript",
-		"CoffeeCompile",
-		"Hipster Ipsum",
-		"LiveReload",
-		"AutoFileName",
-		"PhpBeautifier",
-		"Search WordPress Codex",
-		"Dayle Rees Color Schemes",
-		"Wordpress",
-		"Color Highlighter",
-		"Twitter Bootstrap Snippets",
-		"Phpcs",
-		"Backbone.js",
-		"PHPUnit Completions",
-		"CTags",
-		"Markdown Preview",
-		"Artisan",
-		"JavaScript Console",
 		"Vintage",
-		"Emmet Css Snippets",
-		"CanISwitchToSublimeText3",
-		"Composer",
-		"Laravel Color Scheme",
-		"Debug Killer",
-		"ReadmePlease",
-		"sublime-better-coffeescript",
-		"ApplySyntax",
-		"Theme - Soda"
+		"CTags"
 	],
-	"line_padding_bottom": 4,
-	"line_padding_top": 4,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
 	"margin": 2,
 	"remember_open_files": true,
 	"rulers":
@@ -82,6 +58,7 @@
 	],
 	"scroll_past_end": true,
 	"show_tab_close_buttons": true,
+	"soda_folder_icons": true,
 	"theme": "Flatland Dark.sublime-theme",
 	"todo":
 	{
