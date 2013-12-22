@@ -1,12 +1,16 @@
 {
 	"auto_id_class": true,
 	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+	"create_window_at_startup": false,
 	"detect_slow_plugins": false,
 	"draw_minimap_border": false,
 	"draw_white_space": "selection",
+	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
@@ -35,20 +39,30 @@
 	],
 	"font_size": 12.0,
 	"git_gutter_live_mode": false,
+	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"JavaScript",
+		"Markdown",
+		"CTags",
 		"Vintage",
-		"CTags"
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"*.txt",
+		"*.json"
+	],
+	"line_numbers": true,
 	"line_padding_bottom": 5,
 	"line_padding_top": 5,
 	"margin": 2,
@@ -57,8 +71,11 @@
 	[
 	],
 	"scroll_past_end": true,
+	"show_encoding": false,
+	"show_line_endings": false,
 	"show_tab_close_buttons": true,
 	"soda_folder_icons": true,
+	"tab_size": 4,
 	"theme": "Flatland Dark.sublime-theme",
 	"todo":
 	{

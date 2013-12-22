@@ -16,5 +16,6 @@
 	{ "keys": ["super+alt+down"], "command": "navigate_to_definition" },
 	{ "keys": ["ctrl+alt+m"], "command": "markdown_preview" },
 	{ "keys": ["alt+super+up"], "command": "goto_definition_scope" },
-	{ "keys": ["super+ctrl+m"], "command": "toggle_menu" }
+	{ "keys": ["super+ctrl+m"], "command": "toggle_menu" },
+	{ "keys": ["super+alt+h"], "command": "goto_documentation" }
 ]

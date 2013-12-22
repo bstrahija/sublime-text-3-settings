@@ -1,0 +1,15 @@
+{
+
+	"remove_html_completions": true,
+
+	"use_old_tab_handler": false,
+
+	"preferences": {
+		"css.color.case": "lower",
+		"css.valueSeparator": ": ",
+		"css.propertyEnd": ";"
+	},
+
+	"disable_tab_abbreviations_for_scopes": "source.php"
+
+}

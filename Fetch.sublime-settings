@@ -8,7 +8,7 @@
 	},
 	"packages":
 	{
-		"bootstrap": "http://twitter.github.com/bootstrap/assets/bootstrap.zip",
+		"bootstrap": "https://github.com/twbs/bootstrap/releases/download/v3.0.3/bootstrap-3.0.3-dist.zip",
 		"fancybox": "https://github.com/fancyapps/fancyBox/zipball/master",
 		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master",
 		"laravel4": "https://github.com/laravel/laravel/archive/develop.zip",
