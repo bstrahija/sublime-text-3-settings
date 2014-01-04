@@ -17,5 +17,13 @@
 	{ "keys": ["ctrl+alt+m"], "command": "markdown_preview" },
 	{ "keys": ["alt+super+up"], "command": "goto_definition_scope" },
 	{ "keys": ["super+ctrl+m"], "command": "toggle_menu" },
-	{ "keys": ["super+alt+h"], "command": "goto_documentation" }
+	{ "keys": ["super+alt+h"], "command": "goto_documentation" },
+	{ "keys": ["super+ctrl+a"], "command": "alignment" },
+	{ "keys": ["command+shift+r"], "command": "browser_refresh", "args": {
+	        "auto_save": true,
+	        "delay": 0.5,
+	        "activate_browser": false,
+	        "browser_name" : "all"
+	    }
+	}
 ]

@@ -1,61 +1,104 @@
 {
-    "sublimelinter_executable_map":
-    {
-        "php": "/Applications/MAMP/bin/php/php5.4.10/bin/php"
-    },
-    "sublimelinter_disable":
-    [
-    	"css",
-        "*.min.js",
-        "jquery.min.js",
-        "bootstrap.min.js"
-    ],
-    /*"sublimelinter_syntax_map":
-    {
-        "LESS": "css"
-    },*/
-    "sublimelinter_delay": 1,
-    "sublimelinter_mark_style": "outline", // or "fill"
-    "sublimelinter_gutter_marks": true,
-    "sublimelinter_gutter_marks_theme": "simple",
-    "sublimelinter_notes": true,
-    "sublimelinter_popup_errors_on_save": true,
-
-    "annotations": ["@TODO", "@README", "@FIXME", "@DEBUG"],
-
-    "csslint_options":
-    {
-        "adjoining-classes": false,
-        "box-model": false,
-        "box-sizing": false,
-        "compatible-vendor-prefixes": false,
-        "display-property-grouping": false,
-        "duplicate-background-images": false,
-        "duplicate-properties": false,
-        "empty-rules": false,
-        "errors": false,
-        "fallback-colors": false,
-        "floats": false,
-        "font-faces": false,
-        "font-sizes": false,
-        "gradients": false,
-        "ids": false,
-        "import": false,
-        "important": false,
-        "known-properties": false,
-        "outline-none": false,
-        "overqualified-elements": false,
-        "qualified-headings": false,
-        "regex-selectors": false,
-        "rules-count": false,
-        "shorthand": false,
-        "star-property-hack": false,
-        "text-indent": false,
-        "underscore-property-hack": false,
-        "unique-headings": false,
-        "universal-selector": false,
-        "vendor-prefix": false,
-        "zero-units": false
-    }
-
+	"user":
+	{
+		"debug": false,
+		"delay": 0.25,
+		"error_color": "D02000",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"htmltidy":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"jshint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+					"*.min.js",
+					"jquery.js"
+				]
+			},
+			"php":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"phpcs":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"standard": "PSR0"
+			},
+			"phplint":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "outline",
+		"no_column_highlights_line": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+				"/usr/local/opt/php54/bin/"
+			],
+			"windows":
+			[
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"show_errors_on_save": true,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+		},
+		"warning_color": "DDB700",
+		"wrap_find": true
+	}
 }
