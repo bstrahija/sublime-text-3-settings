@@ -19,7 +19,37 @@
 		".tags_sorted_by_file",
 		".DS_Store",
 		"sftp-config.json",
-		"sftp-config-alt.json"
+		"sftp-config-alt.json",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.sassc",
+		"*.scssc",
+		"*.pdb",
+		"*.idb",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-project",
+		"*.sublime-workspace",
+		"*.htaccess",
+		"*.gem",
+		"*.gz",
+		"*.jar",
+		"*.log",
+		"*.psd",
+		"*.xap",
+		"*.zip"
 	],
 	"find_selected_text": true,
 	"flatland_square_tabs": true,
@@ -31,7 +61,9 @@
 		"CVS",
 		"_build",
 		".settings",
-		".idea"
+		".idea",
+		".sass-cache",
+		".bin"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_options":
@@ -46,12 +78,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Markdown",
-		"GitGutter",
 		"Vintage",
-		"SublimeCodeIntel",
+		"Markdown",
 		"CTags",
-		"JavaScript"
+		"JavaScript",
+		"GitGutter",
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[
@@ -104,6 +136,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"wide_caret": true,
-	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?-",
 	"word_wrap": false
 }
