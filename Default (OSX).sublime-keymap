@@ -25,5 +25,10 @@
 	        "activate_browser": false,
 	        "browser_name" : "all"
 	    }
+	},
+	{
+		"keys": ["f1"],
+		"command": "dired",
+		"args": { "immediate": true }
 	}
 ]

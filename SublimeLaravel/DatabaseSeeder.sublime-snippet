@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[class ${1:${TM_FILENAME/(.*)[.](.*)/$1/g}} extends Seeder {
+
+	public function run()
+	{
+		\$faker = Faker\Factory::create();
+
+		DB::table('${2}')->delete();
+
+		foreach (range(1, 10) as \$index)
+		{
+			DB::table('${2}')->insert(array(
+				'${3}' => '${4}',
+			));
+		}
+	}
+
+}
+]]></content>
+	<tabTrigger>l4:seeder</tabTrigger>
+	<scope>source.php</scope>
+	<description>Database seeder for Laravel 4</description>
+</snippet>

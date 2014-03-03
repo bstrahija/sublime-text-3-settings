@@ -76,6 +76,7 @@ class ${7:${TM_FILENAME/(.*)[.](.*)/$1/g}} ${8:extends ${9:BaseController} }{
 
 }
 ]]></content>
-	<tabTrigger>resource</tabTrigger>
+	<tabTrigger>l4:resource</tabTrigger>
+	<scope>source.php</scope>
 	<description>Laravel 4 resource controller</description>
 </snippet>

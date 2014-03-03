@@ -19,7 +19,7 @@
 		".tags_sorted_by_file",
 		".DS_Store",
 		"sftp-config.json",
-		"composer.lock"
+		"sftp-config-alt.json"
 	],
 	"find_selected_text": true,
 	"flatland_square_tabs": true,
@@ -30,7 +30,8 @@
 		".hg",
 		"CVS",
 		"_build",
-		".settings"
+		".settings",
+		".idea"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_options":
@@ -46,10 +47,11 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"SublimeCodeIntel",
+		"GitGutter",
 		"Vintage",
-		"JavaScript",
-		"CTags"
+		"SublimeCodeIntel",
+		"CTags",
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[

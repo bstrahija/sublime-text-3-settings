@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[Route::delete('${1:post}/${2:id}', '${4:${3:Posts}Controller}@${6:delete${5:Method}}');
 ]]></content>
-	<tabTrigger>rdelete</tabTrigger>
+	<tabTrigger>rdel</tabTrigger>
 	<scope>source.php</scope>
 	<description>DELETE route in Laravel 4</description>
 </snippet>

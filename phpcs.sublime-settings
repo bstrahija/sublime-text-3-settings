@@ -1,5 +1,5 @@
 {
-	"show_debug": false,
+	"show_debug": true,
 
 	// Show the errors in the quick panel so you can then goto line
 	"phpcs_show_quick_panel": true,
@@ -17,7 +17,7 @@
 	"php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
 
 	// Are we going to run php -l over the file?
-	"phpcs_linter_run": true,
+	"phpcs_linter_run": false,
 
 	// Execute phpmd
 	"phpmd_run": true,
