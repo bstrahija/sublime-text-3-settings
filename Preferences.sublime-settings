@@ -79,11 +79,7 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Markdown",
-		"CTags",
-		"JavaScript",
-		"GitGutter",
-		"SublimeCodeIntel"
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[

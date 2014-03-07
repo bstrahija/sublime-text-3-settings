@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[use Illuminate\Support\Facades\Facade;
+
+class ${1:${TM_FILENAME/(.*)[.](.*)/$1/g}} extends Facade {
+
+	protected static function getFacadeAccessor()
+	{
+		return '${2}';
+	}
+
+}
+]]></content>
+	<tabTrigger>l4:facade</tabTrigger>
+	<scope>source.php</scope>
+	<description>Facade class for Laravel 4</description>
+</snippet>
