@@ -42,11 +42,9 @@
 		"*.db",
 		"*.sublime-project",
 		"*.sublime-workspace",
-		"*.htaccess",
 		"*.gem",
 		"*.gz",
 		"*.jar",
-		"*.log",
 		"*.psd",
 		"*.xap",
 		"*.zip"
@@ -78,8 +76,9 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"JavaScript",
 		"Vintage",
-		"JavaScript"
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
