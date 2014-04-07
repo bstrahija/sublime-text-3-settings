@@ -1,1 +1,2 @@
-/Package Control.cache
+*.cache
+*.last-run
