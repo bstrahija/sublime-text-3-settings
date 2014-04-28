@@ -61,7 +61,8 @@
 		".settings",
 		".idea",
 		".sass-cache",
-		".bin"
+		".bin",
+		"storage/clockwork"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_options":
@@ -76,8 +77,8 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"JavaScript",
 		"Vintage",
+		"JavaScript",
 		"Markdown"
 	],
 	"indent_guide_options":
@@ -92,10 +93,11 @@
 		"*.json"
 	],
 	"line_numbers": true,
-	"line_padding_bottom": 5,
-	"line_padding_top": 5,
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
 	"margin": 2,
 	"remember_open_files": true,
+	"reveal-on-activate": false,
 	"rulers":
 	[
 	],
