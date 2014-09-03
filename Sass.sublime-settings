@@ -1,4 +1,6 @@
 {
+	"alignment_chars": ["{", ":"],
+	"alignment_space_chars": ["{", ":"],
 	"tab_size": 4,
 	"extensions":
 	[

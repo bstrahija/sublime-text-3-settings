@@ -30,5 +30,6 @@
 		"keys": ["f1"],
 		"command": "dired",
 		"args": { "immediate": true }
-	}
+	},
+	{ "keys": ["ctrl+alt+f"], "command": "use_it" }
 ]

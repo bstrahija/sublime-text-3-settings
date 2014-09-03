@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Input::get('${1}');]]></content>
+	<tabTrigger>iget</tabTrigger>
+	<scope>source.php</scope>
+	<description>Laravel 4 - Input::get()</description>
+</snippet>

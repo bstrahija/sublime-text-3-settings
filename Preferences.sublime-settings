@@ -1,11 +1,13 @@
 {
+	"aprosopo_dark_aqua": true,
+	"aprosopo_dark_dirty_blue": true,
 	"auto_id_class": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
+	"color_scheme": "Packages/User/base16-eighties.dark (SL).tmTheme",
 	"create_window_at_startup": false,
 	"detect_slow_plugins": false,
 	"draw_minimap_border": false,
@@ -64,12 +66,12 @@
 		".bin",
 		"storage/clockwork"
 	],
-	"font_face": "Ubuntu Mono",
+	"font_face": "Input Mono Narrow",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 12.0,
+	"font_size": 10.5,
 	"git_gutter_live_mode": false,
 	"gutter": true,
 	"highlight_line": true,
@@ -77,9 +79,10 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Markdown",
 		"JavaScript",
-		"Markdown"
+		"BracketHighlighter",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -94,7 +97,7 @@
 	],
 	"line_numbers": true,
 	"line_padding_bottom": 6,
-	"line_padding_top": 6,
+	"line_padding_top": 7,
 	"margin": 2,
 	"remember_open_files": true,
 	"reveal-on-activate": false,
@@ -105,9 +108,11 @@
 	"show_encoding": false,
 	"show_line_endings": false,
 	"show_tab_close_buttons": true,
+	"sidebar_row_padding_medium": true,
 	"soda_folder_icons": true,
 	"tab_size": 4,
-	"theme": "Spacegray.sublime-theme",
+	"tabs_small": true,
+	"theme": "Afterglow-green.sublime-theme",
 	"todo":
 	{
 		"case_sensitive": true,

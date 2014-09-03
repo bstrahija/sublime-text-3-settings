@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[@extends('layout')
+
+@section('main')
+	${1}
+@stop
+]]></content>
+	<tabTrigger>newview</tabTrigger>
+	<description>Blade view boilerplate</description>
+</snippet>

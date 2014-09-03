@@ -1,4 +1,19 @@
 {
-    // Characters that are considered to separate words
-    "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+	"apply_syntax_extensions":
+	[
+		"php3",
+		"php4",
+		"php5",
+		"phtml",
+		"inc"
+	],
+	"extensions":
+	[
+		"php3",
+		"php4",
+		"php5",
+		"phtml",
+		"inc"
+	],
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
 }

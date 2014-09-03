@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<div class="form-group">
+	{{ Form::label('${1}', '${1/\b(\w)/\U$1/g}:') }}
+	{{ Form::text('${1}', null, ['class' => 'form-control']) }}
+</div>]]></content>
+	<tabTrigger>textfield</tabTrigger>
+</snippet>

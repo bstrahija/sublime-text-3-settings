@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[{{ Form::open(['route' => '']) }}
+
+	${1}
+
+{{ Form::close() }}]]></content>
+	<tabTrigger>newform</tabTrigger>
+</snippet>

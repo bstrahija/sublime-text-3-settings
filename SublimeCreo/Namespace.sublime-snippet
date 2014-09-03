@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[namespace ${2};]]></content>
+	<tabTrigger>ns</tabTrigger>
+	<scope>source.php</scope>
+	<description>Namespace</description>
+</snippet>
