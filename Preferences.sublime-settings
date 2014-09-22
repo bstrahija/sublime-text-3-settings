@@ -80,9 +80,9 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"JavaScript",
 		"BracketHighlighter",
-		"Vintage"
+		"Vintage",
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[

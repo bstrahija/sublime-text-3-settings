@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[@extends('layout')
+	<content><![CDATA[@extends('${2:layout}')
 
 @section('main')
 	${1}
