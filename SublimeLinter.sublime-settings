@@ -58,7 +58,7 @@
         "paths": {
             "linux": [],
             "osx": [
-                "/usr/local/opt/php55/bin/"
+                "/usr/local/bin/"
             ],
             "windows": []
         },

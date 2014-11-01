@@ -6,7 +6,7 @@
 
 	// It seems python/sublime cannot always find the phpcs application
 	// If empty, then use PATH version of phpcs, else use the set value
-	"phpcs_executable_path": "/usr/local/Cellar/php54/5.4.23/bin/phpcs",
+	"phpcs_executable_path": "/usr/local/opt/php56/bin/phpcs",
 
 	"phpcs_additional_args": {
 	    "--standard": "psr1",
