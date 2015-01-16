@@ -1,0 +1,144 @@
+[
+
+	{
+		"args": null,
+		"command": "find_under_expand"
+	},
+	{
+		"args":
+		{
+			"by": "words",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "right_delete"
+	},
+	{
+		"command": "escape"
+	},
+	{
+		"command": "expand_selection",
+		"args": {"to": "word"}
+	},
+	{
+		"command": "copy"
+	},
+	{
+		"args":
+		{
+			"by": "words",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args": {"characters": "$"},
+		"command": "insert"
+	},
+
+
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"to": "brackets"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"to": "brackets"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"file": "Packages/Default/Add Line.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args": {"characters": "$this->"},
+		"command": "insert"
+	},
+	{
+		"command": "paste"
+	},
+	{
+		"args": {"characters": " = $"},
+		"command": "insert"
+	},
+	{
+		"command": "paste"
+	},
+	{
+		"args": {"characters": ";"},
+		"command": "insert"
+	},
+
+
+	{
+		"command": "move",
+		"args": {"by": "lines", "forward": true}
+	},
+	{
+		"command": "move_to",
+		"args": {"to": "brackets"}
+	},
+	{
+		"command": "move_to",
+		"args": {"to": "brackets"}
+	},
+	{
+		"command": "move",
+		"args": {"by": "lines", "forward": false}
+	},
+	{
+		"command": "move_to",
+		"args": {"to": "brackets"}
+	},
+	{
+		"command": "move_to",
+		"args": {"to": "brackets"}
+	},
+
+
+	{
+		"args":
+		{
+			"file": "Packages/Default/Add Line.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"file": "Packages/Default/Add Line.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args": {"characters": "/**\n * @var\n*/\nprotected $"},
+		"command": "insert"
+	},
+	{
+		"command": "paste"
+	},
+	{
+		"args": {"characters": ";"},
+		"command": "insert"
+	}
+
+]

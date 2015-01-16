@@ -20,16 +20,21 @@
 	{ "keys": ["super+alt+h"], "command": "goto_documentation" },
 	{ "keys": ["super+ctrl+a"], "command": "alignment" },
 	{ "keys": ["command+shift+r"], "command": "browser_refresh", "args": {
-	        "auto_save": true,
-	        "delay": 0.5,
-	        "activate_browser": false,
-	        "browser_name" : "all"
-	    }
+			"auto_save": true,
+			"delay": 0.5,
+			"activate_browser": false,
+			"browser_name" : "all"
+		}
 	},
 	{
 		"keys": ["f1"],
 		"command": "dired",
 		"args": { "immediate": true }
 	},
-	{ "keys": ["ctrl+alt+f"], "command": "use_it" }
+	{ "keys": ["ctrl+alt+f"], "command": "use_it" },
+	{
+		"keys": ["ctrl+i"],
+		"command": "run_macro_file",
+		"args": {"file": "res://Packages/User/initialize_properties.sublime-macro"}
+	}
 ]

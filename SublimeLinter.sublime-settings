@@ -45,7 +45,7 @@
                 "@disable": false,
                 "args": [],
                 "excludes": [],
-                "standard": "PSR0"
+                "standard": "PSR1"
             },
             "phplint": {
                 "@disable": true,
@@ -55,6 +55,7 @@
         },
         "mark_style": "outline",
         "no_column_highlights_line": false,
+        "passive_warnings": false,
         "paths": {
             "linux": [],
             "osx": [

@@ -1,4 +1,12 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -28,7 +36,7 @@
 		"Emmet",
 		"Git",
 		"GitGutter",
-		"Goto Documentation",
+		"GotoDocumentation",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"INI",
@@ -47,6 +55,7 @@
 		"MarkdownEditing",
 		"Minify",
 		"Nettuts+ Fetch",
+		"Package Control",
 		"PHP Companion",
 		"PHP Getters and Setters",
 		"PHP-Twig",

@@ -79,9 +79,9 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Markdown",
 		"JavaScript",
-		"Markdown"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
