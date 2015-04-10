@@ -26,6 +26,10 @@
 	// If empty, then use PATH version of phpmd, else use the set value
 	"phpmd_executable_path": "/usr/local/bin/phpmd",
 
+	"phpmd_additional_args": {
+	    "unusedcode,naming": ""
+	},
+
 	// Execute the sniffer on file save
 	"phpcs_execute_on_save": true,
 

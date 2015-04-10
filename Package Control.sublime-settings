@@ -2,11 +2,6 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -40,7 +35,6 @@
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"INI",
-		"Jira",
 		"jQuery",
 		"JsFormat",
 		"Laravel 4 Artisan",
@@ -82,6 +76,7 @@
 		"Terminal",
 		"Theme - Afterglow",
 		"Theme - Aprosopo",
+		"Theme - Carmesim",
 		"Theme - Flatland",
 		"Theme - Gravity",
 		"Theme - Soda",
